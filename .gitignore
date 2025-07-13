@@ -1,0 +1,51 @@
+# === Java / Spring Boot ===
+target/
+*.iml
+*.class
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Maven wrapper internal files
+.mvn/wrapper/maven-wrapper.jar
+
+# VS Code
+.vscode/
+
+# === Node.js frontend & extension ===
+email-writer-react/node_modules/
+email-writer-react/build/
+email-writer-ext/node_modules/
+email-writer-ext/build/
+
+# Build folders inside source (just in case)
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+*.env
